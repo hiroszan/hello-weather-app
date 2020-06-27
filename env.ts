@@ -1,5 +1,6 @@
+// Just for me: https://www.notion.so/zoniworks/046f55fbe51d4c6192617eaa16b1cd05?v=9532e8f62f5943b19d71ff5123540e77
+
 export default {
-  OPEN_WEATHER_API_KEY: '750bc4d54f536b72f9a5f2682422084c',
-  K_WEATHER_API_KEY:
-    'RQQgXWFaUfmpqfgJxIQwwal4XhENndJWjIi%2F2C%2B8u6nrbQ1qMw%2FSLSjA5EafJ%2BDfAIyMM7FwKHnA4YFM3M6BFg%3D%3D',
+  OPEN_WEATHER_API_KEY: '{YOUR_API_KEY}',
+  K_WEATHER_API_KEY: '{YOUR_API_KEY}',
 };
