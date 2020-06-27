@@ -5,7 +5,7 @@
 - expo
 - react-native
 
-## Preprerences
+## Preparerences
 
 - [Open Weather Map](https://openweathermap.org/)
 - [K-Weather Map](https://www.data.go.kr/dataset/15000099/openapi.do)
