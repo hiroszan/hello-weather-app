@@ -10,7 +10,7 @@ import Weather from './Weather';
 export default class App extends React.Component {
   state = {
     isLoading: false,
-    weatherData: null,
+    weatherData: {},
   };
 
   async getWeather(location: GeoLocation) {
@@ -51,6 +51,25 @@ export default class App extends React.Component {
           weatherData,
         });
       });
+
+    // this.setState({
+    //   isLoading: true,
+    //   weatherData: {
+    //     temp: 23.06,
+    //     feels_like: 24.76,
+    //     temp_min: 22,
+    //     temp_max: 24,
+    //     humidity: 69,
+    //     city: 'Banpobondong',
+    //     wind_speed: 1,
+    //     wind_deg: 270,
+    //     country: 'KR',
+    //     sunrise: '2020-06-26T20:12:58.000Z',
+    //     sunset: '2020-06-27T10:57:01.000Z',
+    //     desc: '튼구름',
+    //     icon: 'weather-cloudy',
+    //   },
+    // });
   }
 
   render() {
